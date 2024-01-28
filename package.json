@@ -1,0 +1,25 @@
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Regression": "npx playwright test",
+    "WebTests": "npx playwright test --grep @web",
+    "APITests" : "npx playwright test --grep @API",
+    "SafariNewConfig": "npx playwright test --config playwright.config1.js --project=safari"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Arpit Paliwal",
+  "license": "ISC",
+  
+  "homepage": "",
+  "devDependencies": {
+    "@playwright/test": "^1.28.1",
+    "allure-playwright": "^2.0.0-beta.20"
+  }
+}
