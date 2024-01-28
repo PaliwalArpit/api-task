@@ -20,8 +20,8 @@ Which can be used across different web based applications.It is used to make the
 
 `git clone https://github.com/PaliwalArpit/api-task`<br/>
 `cd api-task`<br/>
-`npm install`
-`npx install playwright`
+`npm install`<br/>
+`npx install playwright`<br/>
 `npx playwright test`<br/>
 
 ## Screenshot:
