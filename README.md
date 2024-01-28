@@ -18,8 +18,10 @@ Which can be used across different web based applications.It is used to make the
 
 ## Steps to clone execute the tests
 
-`git clone`<br/>
-`cd PlaywrightFramework`<br/>
+`git clone https://github.com/PaliwalArpit/api-task`<br/>
+`cd api-task`<br/>
+`npm install`
+`npx install playwright`
 `npx playwright test`<br/>
 
 ## Screenshot:
